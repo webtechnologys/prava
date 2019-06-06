@@ -5,12 +5,12 @@
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 </head>
 <body ng-controller="studentController" class="container" > <br />
-    <h1>Student Information:</h1>
+    <h1><b>Student Information</b></h1>
     <form class="form-horizontal" ng-submit="submitStudnetForm()" role="form">
         <div class="form-group">
             <label for="firstName" class="col-sm-3 control-label">First Name</label>
             <div class="col-sm-6">
-                <input type="text" id="firstName" class="form-control" ng-model="student.firstName" />
+                <input type="text" id="firstName" placeholder="enter first name" class="form-control" ng-model="student.firstName" />
             </div>
             <div class="col-sm-3"></div>
 
@@ -18,7 +18,7 @@
         <div class="form-group">
             <label for="lastName" class="col-sm-3 control-label">Last Name</label>
             <div class="col-sm-6">
-                <input type="text" id="lastName" class="form-control" ng-model="student.lastName" />
+                <input type="text" id="lastName" placeholder="enter last name" class="form-control" ng-model="student.lastName" />
             </div>
             <div class="col-sm-3"></div>
         </div>
